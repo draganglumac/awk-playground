@@ -3,7 +3,9 @@ AWK playground as I am working through AWK Programming Language book
 
 # Useful One-Liners
 
-From AWK Programming Language book. Some of them are more than one line but still easy enough to type in single quotes, as you can break the single-quoted directives over multiple lines.
+From [AWK Programming Language](https://www.goodreads.com/book/show/703101.The_AWK_Programming_Language) book.
+
+Some of the examples are longer than one line but they are still easy enough to type in single quotes on the command line, as most Unix shells allow you to break a single-quoted string over multiple lines.
 
 1. Print the total number of input lines:
   ```awk
