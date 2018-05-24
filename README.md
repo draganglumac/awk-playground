@@ -56,22 +56,22 @@ Some of the examples are longer than one line but they are still easy enough to 
   END      { print max, maxline }
   ```
 
-10. Print every line that has at least one field
+10. Print every line that has at least one field:
   ```awk
   NF > 0
   ```
 
-11. Print every line longer than 80 characters
+11. Print every line longer than 80 characters:
   ```awk
   length($0) > 80
   ```
 
-12. Print the number of fields in every line followed by the line itself
+12. Print the number of fields in every line followed by the line itself:
   ```awk
   { print NF, $0 }
   ```
 
-13. Print the first two fields, in opposite order, of every line
+13. Print the first two fields, in opposite order, of every line:
   ```awk
   { print $2, $1 }
   ```
