@@ -28,9 +28,15 @@ where
 
 | Format | `$1` | `printf(fmt, $1)` | Comment |
 |:-------|:-----|:------------------|:--------|
-| `%c` | `97` | `a` ||
-| `%d` | `97.5` | `97` ||
+| `%c` | `97` | `a` |
+| `%d` | `97.5` | `97` |
 | `%5d` | `97.5` | &nbsp;&nbsp;&nbsp;`97` | field 5 characters wide, right aligned, blank padded |
 | `%e` | `97.5` | `97.500000e+01` |
 | `%f` | `97.5` | `97.500000` |
 | `%7.2f` | `97.5` | &nbsp;&nbsp;`97.50` | field 7 characters wide, 2 decimal points, blank padded |
+| `%g` | `97.5` | `97.5` |
+| `%.6g` | `97.5` | `97.5` | number with up to 6 significant digits |
+| `%o` | `97` | `141` |
+| `%06o` | `97` | `000141` | 6 characters wide, 0 padded, octal number |
+| `%x` | `97` | `61` |
+| `|%s|` | `January` | `|January|` |
