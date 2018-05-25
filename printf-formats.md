@@ -30,7 +30,7 @@ where
 |:-------|:-----|:------------------|:--------|
 | `%c` | `97` | `a` ||
 | `%d` | `97.5` | `97` ||
-| `%5d` | `97.5` | `...97` | field 5 characters wide, right aligned, blank padded |
+| `%5d` | `97.5` | &nbsp;&nbsp;&nbsp;`97` | field 5 characters wide, right aligned, blank padded |
 | `%e` | `97.5` | `97.500000e+01` |
 | `%f` | `97.5` | `97.500000` |
-| `%7.2f` | `97.5` | `..97.50` | field 7 characters wide, 2 decimal points, blank padded |
+| `%7.2f` | `97.5` | &nbsp;&nbsp;`97.50` | field 7 characters wide, 2 decimal points, blank padded |
